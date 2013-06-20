@@ -119,7 +119,6 @@ jQuery(document).ready(function () {
 
 // Ajax "Check for Spam"
 function akismet_check_for_spam(offset, limit) {
-	console.log("Check for spam");
 	jQuery.post(
 		ajaxurl,
 		{
